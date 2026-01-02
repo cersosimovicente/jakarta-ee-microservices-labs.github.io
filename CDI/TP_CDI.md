@@ -71,7 +71,7 @@ El sistema debe permitir elegir la implementación `sin ambigüedad`.
 
 **Ejercicio 3 – `@Alternative` + `beans.xml`**
 
-Alternatives y configuración
+Alternatives y configuración. Permitir cambiar la implementación de un servicio sin tocar el código, solo configuración.
 
 **Consigna**
 
