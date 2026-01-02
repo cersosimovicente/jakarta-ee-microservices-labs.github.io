@@ -67,3 +67,26 @@ El sistema debe permitir elegir la implementación `sin ambigüedad`.
  **Pregunta de reflexión**
 
 > ¿Qué error se produciría si no se usaran qualifiers?
+
+
+**Ejercicio 3 – `@Alternative` + `beans.xml`**
+
+Alternatives y configuración
+
+**Consigna**
+
+Implementar un servicio de pagos con:
+
+- Implementación real
+- Implementación mock (simulada)
+
+Seleccionar la implementación solo mediante beans.xml.
+
+**Requisitos**
+- Interfaz `PagoService`
+- Uso de `@Alternative`
+- Sin condicionales (`if`, `switch`)
+- Cambio de comportamiento sin recompilar
+
+**Pregunta de reflexión**
+¿Qué principio de diseño se cumple con este enfoque?
