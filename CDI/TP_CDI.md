@@ -89,4 +89,4 @@ Seleccionar la implementación solo mediante beans.xml.
 - Cambio de comportamiento sin recompilar
 
 **Pregunta de reflexión**
-¿Qué principio de diseño se cumple con este enfoque?
+> ¿Qué principio de diseño se cumple con este enfoque?
