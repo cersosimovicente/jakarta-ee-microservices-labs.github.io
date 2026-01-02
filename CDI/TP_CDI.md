@@ -47,6 +47,6 @@ Crear un servicio de logging que:
 - Justificar el resultado observado
 
 **Pregunta de reflexión**
-*   ¿Por qué el contador se comporta distinto según el scope?
+>  ¿Por qué el contador se comporta distinto según el scope?
 
 
