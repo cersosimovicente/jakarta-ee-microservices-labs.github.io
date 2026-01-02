@@ -49,4 +49,21 @@ Crear un servicio de logging que:
 **Pregunta de reflexión**
 >  ¿Por qué el contador se comporta distinto según el scope?
 
+**EJERCICIO 2 – Qualifiers personalizados**
 
+Implementar un sistema de notificaciones con:
+
+- Email
+- SMS
+  
+El sistema debe permitir elegir la implementación `sin ambigüedad`.
+
+**Requisitos**
+- Interfaz Notificador
+- Dos implementaciones
+- Dos qualifiers personalizados
+- Inyección explícita mediante qualifier
+
+ **Pregunta de reflexión**
+
+> ¿Qué error se produciría si no se usaran qualifiers?
