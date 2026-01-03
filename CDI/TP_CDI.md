@@ -69,7 +69,7 @@ El sistema debe permitir elegir la implementación `sin ambigüedad`.
 > ¿Qué error se produciría si no se usaran qualifiers?
 
 
-**Ejercicio 3 – `@Alternative` + `beans.xml`**
+**EJERCICIO 3 – `@Alternative` + `beans.xml`**
 
 Alternatives y configuración. Permitir cambiar la implementación de un servicio sin tocar el código, solo configuración.
 
@@ -90,3 +90,19 @@ Seleccionar la implementación solo mediante beans.xml.
 
 **Pregunta de reflexión**
 > ¿Qué principio de diseño se cumple con este enfoque?
+
+
+**Ejercicio 4 – `@Produces` (inyección de objetos complejos)**
+**Consigna**
+
+Inyectar un objeto que **no sea un bean CDI** usando un producer.
+
+**Requisitos**
+
+- Crear un producer de `LocalDateTime`
+- Inyectar el objeto en un recurso REST
+- Mostrar la fecha por pantalla
+
+**Pregunta de reflexión**
+
+> ¿Por qué no es buena práctica crear este objeto con new en cada clase?
