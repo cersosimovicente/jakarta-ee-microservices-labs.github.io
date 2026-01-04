@@ -122,3 +122,23 @@ Emitir un evento al crear un usuario y capturarlo desde otro bean.
 
 **Pregunta de reflexión**
 > ¿Qué ventaja aporta este mecanismo frente a una llamada directa?
+
+
+**EJERCICIO 6 – Ciclo de vida (@PostConstruct, @PreDestroy)**
+
+**Consigna**
+
+Crear un bean que:
+
+- Inicialice un recurso al arrancar
+
+- Libere el recurso al detener la aplicación
+
+**Requisitos**
+
+- Uso correcto de anotaciones
+
+- Mostrar mensajes en consola
+
+**Pregunta de reflexión**
+> ¿En qué casos reales se usaría este patrón?
