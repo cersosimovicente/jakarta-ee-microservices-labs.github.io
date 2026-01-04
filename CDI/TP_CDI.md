@@ -106,3 +106,19 @@ Inyectar un objeto que **no sea un bean CDI** usando un producer.
 **Pregunta de reflexión**
 
 > ¿Por qué no es buena práctica crear este objeto con new en cada clase?
+
+
+**EJERCICIO 5 – Eventos CDI**
+
+**Consigna**
+
+Emitir un evento al crear un usuario y capturarlo desde otro bean.
+
+**Requisitos**
+- Clase de evento UsuarioCreado
+- Uso de Event<T>
+- Al menos un observador
+- No usar llamadas directas entre clases
+
+**Pregunta de reflexión**
+> ¿Qué ventaja aporta este mecanismo frente a una llamada directa?
